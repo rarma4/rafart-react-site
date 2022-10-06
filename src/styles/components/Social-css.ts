@@ -12,11 +12,11 @@ justify-content: center;
     :hover{
       color: ${props => props.theme.colors.text.lightgray};
       transition: all .3s;
-      transform: scale(1.3);
+      transform: scale(0.8);
     }
     :active{
       transition: all .3s;
-      transform: scale(0.8);
+      transform: scale(1.2);
     }
   }
 
