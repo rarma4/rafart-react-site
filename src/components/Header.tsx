@@ -3,6 +3,7 @@ import { Container } from '../styles/components/Header-css'
 import React, { useState } from 'react'
 import Image from "next/image"
 import { Col, Row } from 'react-bootstrap'
+import { Button } from '~/styles/components/Button-css'
 
 // interface Menu{
 //   isVisible: boolean
@@ -21,7 +22,7 @@ const Menu: React.FC = () => {
           <Col md={6} xd={12}>
             <h1>Sempre olhando para construir algo novo</h1>
             <p>Apaixonado por tecnologia e inovação busco oferecer, soluções práticas e eficazes que trarão ótimos resultados.</p>
-            <button>Saba Mais</button>
+            <Button width="200px" className='white'>Saiba Mais</Button>
           </Col>
           <Col md={6} xd={12}>
             <div className='imgDeveloper'>
