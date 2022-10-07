@@ -20,6 +20,7 @@ export const Container = styled.div`
     }
 
     .menu {
+      margin-top: 20px;
       li {
         list-style: none;
         display: inline-flex;
