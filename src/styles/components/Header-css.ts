@@ -35,6 +35,17 @@ export const Container = styled.div`
     }
 
   @media (max-width: 947px) {
-    height: 715px;
+    height: auto;
+    h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+    p {
+      text-align: center;
+    }
+    .imgDeveloper{
+        display:flex;
+        margin-top: 30px;
+    }
   }
 `

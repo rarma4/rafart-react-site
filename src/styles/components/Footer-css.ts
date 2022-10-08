@@ -8,8 +8,8 @@ export const Container = styled.div`
   border-top: solid ${props => props.theme.colors.background.lightblue} 5px;
   display: flex;
   justify-content: center;
-  position: fixed;
-  bottom: 0;
+  /* position: sticky;
+  bottom: 0; */
   
   .max-width {
       max-width: 1300px;

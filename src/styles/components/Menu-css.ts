@@ -5,8 +5,10 @@ export const Container = styled.div`
   background-color: #121a2f;
   width: 100%;
   z-index: 999;
-  padding: 20px 0;
+  padding: 10px 0;
   border-bottom: solid ${props => props.theme.colors.background.lightblue} 5px;
+  position: sticky;
+  top: 0;
 
   .navbar {
     .max-width {
@@ -50,6 +52,7 @@ export const Container = styled.div`
   }
 
   @media (max-width: 947px) {
+    padding: 20px 0;
     .menu-btn {
       display: block;
       z-index: 999;

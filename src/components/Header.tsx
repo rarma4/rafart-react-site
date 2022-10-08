@@ -20,9 +20,9 @@ const Menu: React.FC = () => {
       <div className="max-width">
         <Row>
           <Col md={6} xd={12}>
-            <h1>Sempre olhando para construir algo novo</h1>
-            <p>Apaixonado por tecnologia e inovação busco oferecer, soluções práticas e eficazes que trarão ótimos resultados.</p>
-            <Button width="200px" className='white'>Saiba Mais</Button>
+            <h1>Apaixonado por tecnologia e inovação</h1>
+            <p>Busco oferecer, soluções práticas e eficazes que trarão ótimos resultados.</p>
+            {/* <Button width="200px" className='white'>Saiba Mais</Button> */}
           </Col>
           <Col md={6} xd={12}>
             <div className='imgDeveloper'>
