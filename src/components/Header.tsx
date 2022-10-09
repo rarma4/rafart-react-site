@@ -9,7 +9,7 @@ import { Button } from '~/styles/components/Button-css'
 //   isVisible: boolean
 // }
 
-const Menu: React.FC = () => {
+const Header: React.FC = () => {
   const [menuIsVisible, setMenuIsVisible] = useState(false)
   const handleChange = () => {
     setMenuIsVisible(!menuIsVisible)
@@ -36,4 +36,4 @@ const Menu: React.FC = () => {
   )
 }
 
-export default Menu
+export default Header

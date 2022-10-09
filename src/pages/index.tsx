@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import Menu from '../components/Menu'
 import Footer from '~/components/Footer'
 import Header from '~/components/Header'
+import Sobre from '~/components/Sobre'
 
 const Home: React.FC = () => {
   return (
@@ -14,10 +15,10 @@ const Home: React.FC = () => {
       </Head>
       <Menu />
       <Header />
+      <Sobre />
       <RocketseatLogo />
       <h1>ReactJS Structure</h1>
       <p>A ReactJS + Next.js structure made by Rocketseat.</p>
-
       <Footer />
     </Container>
   )
