@@ -23,18 +23,34 @@ export const Container = styled.div`
 
       .title{
        
-        border-bottom: 2px solid ${props => props.theme.colors.text.lightblue};
-        width: 300px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+       border-bottom: 2px solid ${props => props.theme.colors.text.lightblue};
+       width: 300px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
 
-        h2{
-        color: ${props => props.theme.colors.text.lightblue};
-        font-weight: 900;
+       h2{
+         color: ${props => props.theme.colors.text.lightblue};
+         font-weight: 900;
+       }
+
+     }
+    .queSou{
+      
+      h2 {
+          color: ${props => props.theme.colors.text.lightblue};
+          font-weight: 900;
       }
 
+      p {
+          color: ${props => props.theme.colors.text.lightblue};
+          font-weight: 900;
+          font-size: 14px;
       }
+
+    }
+      
+
 
     }
 

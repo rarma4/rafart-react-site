@@ -42,8 +42,8 @@ export const Button = styled.button<{ width?: string, widthMob?: string, align?:
     color: ${props => props.theme.colors.text.darkblue};
 
     &:hover{
-      background-color: ${props => props.theme.colors.background.darkblue};
-      color: ${props => props.theme.colors.text.lightgray};
+      background-color: ${props => props.theme.colors.background.lightblue};
+      color: ${props => props.theme.colors.text.darkblue};
     }
 
   }
