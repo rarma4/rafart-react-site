@@ -4,6 +4,7 @@ import React, { useState } from 'react'
 import Image from "next/image"
 import { Col, Row } from 'react-bootstrap'
 import { Button } from '~/styles/components/Button-css'
+import Progress from './Progress'
 
 // interface Menu{
 //   isVisible: boolean
@@ -25,8 +26,10 @@ const Sobre: React.FC = () => {
             <p> Criação de identidades visuais para empresas, logomarcas, cartões de visita, banners e peças gráficas para campanhas publicitárias</p>
             <Button width="200px" className='white'>Download CV</Button>
           </Col>
-          <Col md={6} xd={12}>
-          2
+          <Col md={6} xd={12} className="habilidades">
+          <h3>Habilidades</h3>
+          <Progress progresso={80} habilidade="Html"/>
+          <Progress progresso={50} habilidade="CSS" />
           </Col>
         </Row>
         <Row>

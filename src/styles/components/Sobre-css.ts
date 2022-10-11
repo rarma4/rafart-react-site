@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   bbackground: ${props => props.theme.colors.background.darkblue};
-  height: 400px;
+  height: auto;
   position: relative ;
   /* font-size: 20px;
   background-color: #121a2f;
@@ -28,6 +28,7 @@ export const Container = styled.div`
        display: flex;
        flex-direction: column;
        align-items: center;
+       margin: 20px 0;
 
        h2{
          color: ${props => props.theme.colors.text.lightblue};
@@ -35,16 +36,16 @@ export const Container = styled.div`
        }
 
      }
-    .queSou{
+    .queSou, .habilidades{
       
-      h2 {
+      h3 {
           color: ${props => props.theme.colors.text.lightblue};
-          font-weight: 900;
+          font-weight: 500;
       }
 
       p {
-          color: ${props => props.theme.colors.text.lightblue};
-          font-weight: 900;
+          color: ${props => props.theme.colors.text.lightgray};
+          font-weight: 100;
           font-size: 14px;
       }
 
