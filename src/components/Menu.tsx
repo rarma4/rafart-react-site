@@ -21,7 +21,7 @@ const Menu: React.FC = () => {
             {/* <Link href="/">
               <img src="img/rafart-logo-full.png" />
             </Link> */}
-            <a href="/" ><Image src="/img/rafart-logo-full.png" width={120} height={40} /></a>
+            {/* <a href="/" ><Image src="/img/rafart-logo-full.png" width={120} height={40} /></a> */}
           </div>
           <ul className={`menu ${menuIsVisible ? "active" :  "" }`} id="myLinks">
             <li>
