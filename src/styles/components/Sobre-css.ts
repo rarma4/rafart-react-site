@@ -34,7 +34,6 @@ export const Container = styled.div`
          color: ${props => props.theme.colors.text.lightblue};
          font-weight: 900;
        }
-
      }
     .queSou, .habilidades{
       
