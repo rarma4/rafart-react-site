@@ -23,11 +23,8 @@ jobs:
 
       - name: Build
         run: npm run build
-        --existing-output-dir=.next
+
+      - name: Deploy Rafart
+        run: npm start -- --ci 
         env:
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
-
-      # - name: Deploy Rafart
-      #   run: npm run build -- --ci --existing-output-dir=next
-      #   env:
-      #     GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
