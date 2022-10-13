@@ -25,6 +25,6 @@ jobs:
         run: npm run build
 
       - name: Deploy Rafart
-        run: npm start -- --ci 
+        run: npm start 
         env:
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
