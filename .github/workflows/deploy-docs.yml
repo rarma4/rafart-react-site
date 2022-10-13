@@ -29,8 +29,5 @@ jobs:
 
       - name: Deploy Rafart
         run: npm run build -- --ci --existing-output-dir=out
-        with:
-          branch: gh-pages # The branch the action should deploy to.
-          folder: out # The folder the action should deploy.
         env:
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
