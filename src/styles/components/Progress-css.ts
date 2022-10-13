@@ -15,7 +15,7 @@ label{
 }
 
 @media (max-width: 768px) {
-  
+
 }
 
 `
