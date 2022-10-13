@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "start http://localhost:3000 && next dev",
     "build": "next build",
-    "start": "next start",
     "export": "next export",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
