@@ -26,9 +26,15 @@ jobs:
         run: npm run build && npm run export && touch ./out/.nojekyll
 
       - name: Deploy Rafart
-        run: npm run build --existing-output-dir=out
+        uses: JamesIves/github-pages-deploy-action@4.1.0
+        with:
+          # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: out # The folder the action should deploy.
+        # run: npm run build --existing-output-dir=out
         env:
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
+          
 
 # name: GitHub Pages deploy
 
