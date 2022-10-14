@@ -18,9 +18,9 @@ const Menu: React.FC = () => {
       <nav className="navbar">
         <div className="max-width">
           <div className="logo">
-            {/* <Link href="/">
+            <Link href="/">
               <img src="img/rafart-logo-full.png" />
-            </Link> */}
+            </Link>
             {/* <a href="/" ><Image src="/img/rafart-logo-full.png" width={120} height={40} /></a> */}
           </div>
           <ul className={`menu ${menuIsVisible ? "active" :  "" }`} id="myLinks">
