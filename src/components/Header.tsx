@@ -26,8 +26,8 @@ const Header: React.FC = () => {
           </Col>
           <Col md={6} xd={12}>
             <div className='imgDeveloper'>
-              {/* <img src="img/developer02p.png" /> */}
-              <Image src="/img/developer02p.png" width={500} height={400} />
+              <img src="img/developer02p.png" />
+              {/* <Image src="/img/developer02p.png" width={500} height={400} /> */}
             </div>
           </Col>
         </Row>

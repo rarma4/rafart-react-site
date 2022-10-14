@@ -24,8 +24,10 @@ export const Container = styled.div`
       flex-direction: column;
 
       .imgDeveloper{
-        /* position: absolute;
-        bottom: -7px; */
+        img{
+          width: 500px;
+          height: 400px;
+        }
       }
       h1 {
         color: ${props => props.theme.colors.text.lightgray};

@@ -19,6 +19,13 @@ export const Container = styled.div`
       display: flex;
       align-items: center;
       justify-content: inherit;
+
+      .logo{
+        img{
+          width: 120px;
+          height: 40px ;
+        }
+      }
     }
 
     .menu {
