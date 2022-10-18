@@ -27,6 +27,10 @@ export const Container = styled.div`
         img{
           width: 500px;
           height: 400px;
+          @media (max-width: 947px) {
+            width: 100%;
+            height: auto;
+          }
         }
       }
       h1 {
