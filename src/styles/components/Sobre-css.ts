@@ -36,8 +36,25 @@ export const Container = styled.div`
        }
        
      }
-    .queSou, .habilidades{
-      
+    .queSou{
+
+      h3 {
+          color: ${props => props.theme.colors.text.lightblue};
+          font-weight: 500;
+      }
+
+      p {
+          color: ${props => props.theme.colors.text.lightgray};
+          font-weight: 100;
+          font-size: 18px;
+      }
+
+    }
+    .habilidades{
+      @media (max-width: 947px) {
+        margin-top: 50px;
+      }
+
       h3 {
           color: ${props => props.theme.colors.text.lightblue};
           font-weight: 500;
@@ -50,7 +67,57 @@ export const Container = styled.div`
       }
 
     }
-      
+
+    .formacao{
+      margin: 50px 10px;
+      background-color: ${props => props.theme.colors.background.mediumblue};
+      padding: 30px;
+      width: 620px ;
+      border-radius: 5px;
+
+      @media (max-width: 947px) {
+        margin: 10px 10px;
+        margin-top: 50px ;
+        width: 95% ;
+      }
+
+      h3 {
+          color: ${props => props.theme.colors.text.lightblue};
+          font-weight: 500;
+      }
+
+      p {
+          color: ${props => props.theme.colors.text.lightgray};
+          font-weight: 100;
+          font-size: 14px;
+      }
+
+    }
+
+    .experiencia{
+      margin: 50px 10px;
+      background-color: ${props => props.theme.colors.background.mediumblue};
+      padding: 30px;
+      width: 620px;
+      border-radius: 5px;
+      @media (max-width: 947px) {
+        margin: 10px 10px;
+        width: 95% ;
+      }
+
+      h3 {
+          color: ${props => props.theme.colors.text.lightblue};
+          font-weight: 500;
+      }
+
+      p {
+          color: ${props => props.theme.colors.text.lightgray};
+          font-weight: 100;
+          font-size: 14px;
+      }
+
+    }
+
 
 
     }

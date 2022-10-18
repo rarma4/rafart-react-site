@@ -28,16 +28,37 @@ const Sobre: React.FC = () => {
           </Col>
           <Col md={6} xd={12} className="habilidades">
           <h3>Habilidades</h3>
-          <Progress progresso={80} habilidade="Html"/>
-          <Progress progresso={50} habilidade="CSS" />
+          <Progress progresso={95} habilidade="WordPress" />
+          <Progress progresso={100} habilidade="Html" />
+          <Progress progresso={95} habilidade="CSS - SCSS" />
+          <Progress progresso={75} habilidade="Javascript" />
+          <Progress progresso={80} habilidade="PHP" />
+          <Progress progresso={65} habilidade="React" />
           </Col>
         </Row>
         <Row>
-          <Col md={6} xd={12}>
-           3
+          <Col md={6} xd={12} className="formacao">
+            <h3>Formação</h3>
+            <Row>
+              <Col md={4} xd={4}>
+              <p>Anhanguera Educacional</p>
+              <p>2015 - 2018</p>
+              </Col>
+              <Col md={8} xd={8}>
+                <p>Bacharel em Sistemas de Informação, conhecimentos em PHP, Javascript, Python, HTML, CSS, Bootstrap, WordPress, SQL, React. </p>
+              </Col>
+            </Row>
           </Col>
-          <Col md={6} xd={12}>
-          4
+          <Col md={6} xd={12} className="experiencia">
+          <h3>Experiência</h3>
+            <Row>
+              <Col md={4} xd={4}>
+
+              </Col>
+              <Col md={8} xd={8}>
+                <p>Bacharel em Sistemas de Informação, conhecimentos em PHP, Javascript, Python, HTML, CSS, Bootstrap, WordPress, SQL, React. </p>
+              </Col>
+            </Row>
           </Col>
         </Row>
       </div>
