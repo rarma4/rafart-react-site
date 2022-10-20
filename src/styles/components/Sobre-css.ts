@@ -92,6 +92,10 @@ export const Container = styled.div`
           font-size: 14px;
       }
 
+      .line{
+        border-bottom: 1px solid ${props => props.theme.colors.text.lightgray};
+      }
+
     }
 
     .experiencia{
@@ -114,6 +118,10 @@ export const Container = styled.div`
           color: ${props => props.theme.colors.text.lightgray};
           font-weight: 100;
           font-size: 14px;
+      }
+
+      .line{
+        border-bottom: 1px solid ${props => props.theme.colors.text.lightgray};
       }
 
     }

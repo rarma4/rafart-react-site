@@ -39,7 +39,7 @@ const Sobre: React.FC = () => {
         <Row>
           <Col md={6} xd={12} className="formacao">
             <h3>Formação</h3>
-            <Row>
+            <Row className='line'>
               <Col md={4} xd={4}>
               <p>Anhanguera Educacional</p>
               <p>2015 - 2018</p>
@@ -51,7 +51,7 @@ const Sobre: React.FC = () => {
           </Col>
           <Col md={6} xd={12} className="experiencia">
           <h3>Experiência</h3>
-            <Row>
+            <Row className='line'>
               <Col md={4} xd={4}>
 
               </Col>
