@@ -5,6 +5,7 @@ import Image from "next/image"
 import { Col, Row } from 'react-bootstrap'
 import { Button } from '~/styles/components/Button-css'
 import Progress from './Progress'
+import Formacao from './Formacao'
 
 // interface Menu{
 //   isVisible: boolean
@@ -53,7 +54,7 @@ const Sobre: React.FC = () => {
           <h3>Experiência</h3>
             <Row className='line'>
               <Col md={4} xd={4}>
-
+            
               </Col>
               <Col md={8} xd={8}>
                 <p>Bacharel em Sistemas de Informação, conhecimentos em PHP, Javascript, Python, HTML, CSS, Bootstrap, WordPress, SQL, React. </p>
