@@ -9,7 +9,7 @@ import Image from "next/image"
 
 const Menu: React.FC = () => {
   const [menuIsVisible, setMenuIsVisible] = useState(false)
-  const handleChange = () => {
+  function handleChange() {
     setMenuIsVisible(!menuIsVisible)
   }
 

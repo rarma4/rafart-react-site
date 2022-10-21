@@ -5,7 +5,6 @@ import Image from "next/image"
 import { Col, Row } from 'react-bootstrap'
 import { Button } from '~/styles/components/Button-css'
 import Progress from './Progress'
-import Formacao from './Formacao'
 
 // interface Menu{
 //   isVisible: boolean
