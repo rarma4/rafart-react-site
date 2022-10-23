@@ -7,7 +7,8 @@
 "extends": [
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
-    "standard"
+    "standard",
+    "next"
 ],
 "parser": "@typescript-eslint/parser",
 "parserOptions": {
@@ -26,11 +27,10 @@
     "no-use-before-define": [0],
     "@typescript-eslint/no-use-before-define": [1],
     "@typescript-eslint/no-explicit-any": "off",
-     "@typescript-eslint/ban-types": "off",
-     "react/react-in-jsx-scope": "off",
-     "react/prop/types": "off",
-     "prettier/prettier": "error",
-     "space-before-function-paren":"off",
-   "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+    "@typescript-eslint/ban-types": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/prop/types": "off",
+    "prettier/prettier": "error",
+    "space-before-function-paren":"off"
 }
 }
