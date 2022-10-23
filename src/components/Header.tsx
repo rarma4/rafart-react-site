@@ -3,7 +3,6 @@ import { Container } from '../styles/components/Header-css'
 import React, { useState } from 'react'
 import Image from "next/image"
 import { Col, Row } from 'react-bootstrap'
-import { Button } from '~/styles/components/Button-css'
 
 // interface Menu{
 //   isVisible: boolean

@@ -2,7 +2,8 @@ import Link from 'next/link'
 import { Container } from '../styles/components/Footer-css'
 import React, { useState } from 'react'
 import Image from "next/image"
-import Social from '~/components/Social'
+import Social from './Social'
+
 // interface Menu{
 //   isVisible: boolean
 // }

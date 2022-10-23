@@ -2,7 +2,8 @@ import Link from 'next/link'
 import { Container } from '../styles/components/Menu-css'
 import React, { useState } from 'react'
 import ProgressBar from 'react-bootstrap/ProgressBar';
-import { ProgressElement } from '~/styles/components/Progress-css';
+import { ProgressElement } from '../styles/components/Progress-css';
+
 
 interface Progress{
   habilidade: string,
