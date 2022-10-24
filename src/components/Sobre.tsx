@@ -5,42 +5,13 @@ import Image from "next/image"
 import { Col, Row } from 'react-bootstrap'
 import Progress from './Progress'
 import { Button } from '../styles/components/Button-css'
+import { Formacao } from 'src/utils/Utils'
 
 // interface Menu{
 //   isVisible: boolean
 // }
 
 const Sobre: React.FC = () => {
-
-  const cadastros = [
-  {
-    "id": 1,
-    "nome": "Francisca Julia da Costa",
-    "cpf": "457.696.936-65",
-    "rg": "47.360.897-2",
-    "data_nasc": "23/03/1944",
-    "sexo": "Feminino"
-  },
-  {
-    "id": 2,
-    "nome": "Noah Felipe Silva",
-    "cpf": "956.531.431-70",
-    "rg": "40.974.782-8",
-    "data_nasc": "11/07/1964",
-    "sexo": "Masculino"
-  },
-  {
-    "id": 3,
-    "nome": "Alícia Rosângela Melo",
-    "cpf": "066.291.353-18",
-    "rg": "36.214.141-1",
-    "data_nasc": "18/02/1978",
-    "sexo": "Feminino"
-  }
-]
-Object.keys(cadastros).forEach(function(item){
-  console.log(item + " - " + cadastros[item])
-})
 
   return (
     <Container>
@@ -68,7 +39,7 @@ Object.keys(cadastros).forEach(function(item){
         </Row>
         <Row>
           <Col md={6} xd={12} className="formacao">
-            <h3>Formação</h3>
+            <h3>Formação</h3> 
             <Row className='line'>
               <Col md={4} xd={4}>
               <p>Anhanguera Educacional</p>
@@ -83,7 +54,13 @@ Object.keys(cadastros).forEach(function(item){
           <h3>Experiência</h3>
             <Row className='line'>
               <Col md={4} xd={4}>
-              
+              {Formacao.map((item, index) =>(
+                <div key={index}>
+                  <ul key={index}>
+                    <li>{item.nome}</li>
+                  </ul>
+                </div>
+              ))}
               </Col>
               <Col md={8} xd={8}>
                 <p>Bacharel em Sistemas de Informação, conhecimentos em PHP, Javascript, Python, HTML, CSS, Bootstrap, WordPress, SQL, React. </p>
