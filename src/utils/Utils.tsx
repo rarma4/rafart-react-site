@@ -1,26 +1,29 @@
 export const Formacao = [
     {
       "id": 1,
-      "nome": "Francisca Julia da Costa",
-      "cpf": "457.696.936-65",
-      "rg": "47.360.897-2",
-      "data_nasc": "23/03/1944",
-      "sexo": "Feminino"
+      "nome": "Anhanguera Educacional",
+      "data": "2015 - 2018",
+      "descricao": "Bacharel em Sistemas de Informação, conhecimentos em PHP, Javascript, Python, HTML, CSS, Bootstrap, WordPress, SQL, React. ",
+    }
+  ]
+
+  export const Experiencia = [
+    {
+      "id": 1,
+      "nome": "Tenda Negócios Imobiliários",
+      "data": "10/2021 – até presente data",
+      "descricao": "Programador de Internet Web II",
     },
     {
       "id": 2,
-      "nome": "Noah Felipe Silva",
-      "cpf": "956.531.431-70",
-      "rg": "40.974.782-8",
-      "data_nasc": "11/07/1964",
-      "sexo": "Masculino"
+      "nome": "Spread Teleinformática",
+      "data": "09/2020 – 09/2021",
+      "descricao": "Programador Frontend  junior",
     },
     {
       "id": 3,
-      "nome": "Alícia Rosângela Melo",
-      "cpf": "066.291.353-18",
-      "rg": "36.214.141-1",
-      "data_nasc": "18/02/1978",
-      "sexo": "Feminino"
+      "nome": "Adin Comercial e serviços de Marketing",
+      "data": "09/2019 – 04/2020",
+      "descricao": "Programador PHP junior",
     }
   ]

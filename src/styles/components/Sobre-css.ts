@@ -74,6 +74,9 @@ export const Container = styled.div`
       padding: 30px;
       width: 620px ;
       border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
 
       @media (max-width: 947px) {
         margin: 10px 10px;
@@ -86,14 +89,23 @@ export const Container = styled.div`
           font-weight: 500;
       }
 
+      h4{
+        color: ${props => props.theme.colors.text.lightblue};
+        font-weight: 500;
+        font-size: 18px;
+        margin-top: 10px;
+      }
+
       p {
           color: ${props => props.theme.colors.text.lightgray};
           font-weight: 100;
           font-size: 14px;
+          margin-top: 4px;
+
       }
 
       .line{
-        border-bottom: 1px solid ${props => props.theme.colors.text.lightgray};
+        border-bottom: 1px solid ${props => props.theme.colors.text.lightblue};
       }
 
     }
@@ -104,6 +116,9 @@ export const Container = styled.div`
       padding: 30px;
       width: 620px;
       border-radius: 5px;
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
       @media (max-width: 947px) {
         margin: 10px 10px;
         width: 95% ;
@@ -114,14 +129,23 @@ export const Container = styled.div`
           font-weight: 500;
       }
 
+      h4{
+        color: ${props => props.theme.colors.text.lightblue};
+        font-weight: 500;
+        font-size: 18px;
+        margin-top: 10px;
+      }
+
       p {
           color: ${props => props.theme.colors.text.lightgray};
           font-weight: 100;
           font-size: 14px;
+          margin-top: 4px;
+
       }
 
       .line{
-        border-bottom: 1px solid ${props => props.theme.colors.text.lightgray};
+        border-bottom: 1px solid ${props => props.theme.colors.text.lightblue};
       }
 
     }

@@ -5,7 +5,7 @@ import Image from "next/image"
 import { Col, Row } from 'react-bootstrap'
 import Progress from './Progress'
 import { Button } from '../styles/components/Button-css'
-import { Formacao } from 'src/utils/Utils'
+import { Experiencia, Formacao } from 'src/utils/Utils'
 
 // interface Menu{
 //   isVisible: boolean
@@ -40,32 +40,31 @@ const Sobre: React.FC = () => {
         <Row>
           <Col md={6} xd={12} className="formacao">
             <h3>Formação</h3> 
-            <Row className='line'>
-              <Col md={4} xd={4}>
-              <p>Anhanguera Educacional</p>
-              <p>2015 - 2018</p>
-              </Col>
-              <Col md={8} xd={8}>
-                <p>Bacharel em Sistemas de Informação, conhecimentos em PHP, Javascript, Python, HTML, CSS, Bootstrap, WordPress, SQL, React. </p>
-              </Col>
-            </Row>
+              {Formacao.map((item, index) =>(
+                 <Row className='line'key={index}>
+                 <Col md={4} xd={4}>
+                 <h4>{item.nome}</h4>
+                 <p>{item.data}</p>
+                 </Col>
+                 <Col md={8} xd={8}>
+                   <p>{item.descricao}</p>
+                 </Col>
+               </Row>
+              ))}
           </Col>
           <Col md={6} xd={12} className="experiencia">
           <h3>Experiência</h3>
-            <Row className='line'>
-              <Col md={4} xd={4}>
-              {Formacao.map((item, index) =>(
-                <div key={index}>
-                  <ul key={index}>
-                    <li>{item.nome}</li>
-                  </ul>
-                </div>
-              ))}
-              </Col>
-              <Col md={8} xd={8}>
-                <p>Bacharel em Sistemas de Informação, conhecimentos em PHP, Javascript, Python, HTML, CSS, Bootstrap, WordPress, SQL, React. </p>
-              </Col>
-            </Row>
+            {Experiencia.map((item, index) =>(
+                <Row className='line'key={index}>
+                <Col md={6} xd={6}>
+                <h4>{item.nome}</h4>
+                </Col>
+                <Col md={6} xd={6}>
+                  <p>{item.descricao}</p>
+                  <p>{item.data}</p>
+                </Col>
+              </Row>
+            ))}
           </Col>
         </Row>
       </div>
